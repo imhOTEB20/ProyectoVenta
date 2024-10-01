@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import "./styles/ImageCarousel.css";
+import "./styles/imageCarousel.css";
 
 export default function ImageCarousel({ images }) {
     const [currentIndex, setCurrentIndex] = useState(0);
