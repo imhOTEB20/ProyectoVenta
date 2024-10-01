@@ -3,7 +3,7 @@ import WhatsAppButton from 'react-whatsapp-button';
 
 import Button from './Button'
 import ImageCarousel from './ImageCarousel';
-import Specifics from './specifics';
+import Specifics from './Specifics';
 
 import './styles/App.css'
 
