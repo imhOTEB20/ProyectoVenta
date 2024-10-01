@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import WhatsAppButton from 'react-whatsapp-button';
 
 import Button from './Button'
 import ImageCarousel from './ImageCarousel';
@@ -39,6 +40,12 @@ function App() {
         </div>
         {interactions[interection]}
       </div>
+      <WhatsAppButton
+        phoneNumber="3874699819"
+        message="Hola! Quisiera saber el precio de la netbook G3 de la publicacion."
+        buttonText="Enviar un mensaje"
+        countryCode="AR"
+      />
     </>
   )
 }
